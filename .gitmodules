@@ -1,6 +1,7 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://github.com/fifteenhex/buildroot.git
+	branch = gw30x
 [submodule "br2secretsauce"]
 	path = br2secretsauce
 	url = https://github.com/fifteenhex/br2secretsauce.git
