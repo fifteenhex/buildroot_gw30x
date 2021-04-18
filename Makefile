@@ -1,4 +1,4 @@
-BUILDROOT_ARGS += BR2_DEFCONFIG=../br2gw30x/configs/gw30x_defconfig
+DEFCONFIG = ../br2gw30x/configs/gw30x_defconfig
 EXTERNALS +=../br2autosshkey ../br2gw30x
 
 all: buildroot copy_outputs
