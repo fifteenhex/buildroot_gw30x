@@ -1,6 +1,18 @@
 # buildroot_gw30x
 Buildroot for MYZR GW300/302
 
+## Getting the i2m IPL
+
+Right now we need the vendor IPL to boot with.
+This can't really be redistributed here directly.
+
+Fortunately there is a publically available flash
+image that contains the IPL so we can download
+that and pull it out of there.
+
+Use `get_ipl.sh` to download the image and copy
+the IPL out of it.
+
 
 ## UBI setup
 
