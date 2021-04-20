@@ -1,5 +1,7 @@
+PREFIX = gw30x
 DEFCONFIG = ../br2gw30x/configs/gw30x_defconfig
 EXTERNALS +=../br2autosshkey ../br2gw30x
+TOOLCHAIN = arm-buildroot-linux-gnueabihf_sdk-buildroot.tar.gz
 
 all: buildroot copy_outputs
 
