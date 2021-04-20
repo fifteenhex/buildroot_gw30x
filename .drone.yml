@@ -55,6 +55,13 @@ steps:
   - make
   - ls outputs/
 
+- name: toolchain
+  image: gw302_buildroot
+  pull: if-not-exists
+  commands:
+  - make buildroot-toolchain
+  - ls outputs/
+
 - name: publish
   image: plugins/github-release
   settings:
